@@ -1,3 +1,5 @@
+
+
 <html>
   <head>
     <title>Interactive Annotations</title>
@@ -79,7 +81,7 @@
 
       // Load 3D model
       const loader = new THREE.GLTFLoader();
-      loader.load("4.glb", function (gltf) {
+      loader.load("3.glb", function (gltf) {
         const model = gltf.scene;
         scene.add(model);
       });
@@ -130,7 +132,7 @@
       }
 
       // Add annotations
-      addAnnotation(new THREE.Vector3(-7.52, -12.54, -9.76), "Internal carotid", "The internal carotid artery is a major branch of the common carotid artery, supplying several parts of the head with blood, the most important one being the brain. There are two internal carotid arteries in total, one on each side of the neck");
+      addAnnotation(new THREE.Vector3(-1.52, -10.54, -1.0), "Hair Papilla", "Hair dermal papilla cells are specialized mesenchymal cells that exist in the dermal papilla located at the bottom of hair follicles. These cells play pivotal roles in hair formation, growth, and cycling.");
 
 
       // Dragging functionality for the info box
